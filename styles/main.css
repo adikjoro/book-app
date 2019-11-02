@@ -1,0 +1,23 @@
+main {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.content {
+    padding: 0 30px;
+}
+
+.feed__title {
+    margin-top: 21px;
+}
+
+.feed__content {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+.feed .card {
+    margin-right: 30px;
+}

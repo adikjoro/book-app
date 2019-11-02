@@ -19,3 +19,66 @@ a {
 ul, ol {
     list-style: none;;
 }
+
+.bold-30 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.medium-bold-26 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.light-22 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.bold-14 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.medium-12 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.light-11 {
+    font-size: 11;
+    font-weight: 300;
+}
+
+.card__img {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    min-width: 100px;
+    min-height: 160px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card__title {
+
+}
+
+.card__title--big {
+
+}
+
+.card__img--big {
+    min-width: 140px;
+    min-height: 220px;
+}
+
+.divider {
+    height: 1px;
+    width: calc(100% - 60px);
+    margin: 0 30px;
+    background: #DCDCDC;
+}
+
+.card--obama {
+    background-image: url("../images/obama.jpeg");
+}
