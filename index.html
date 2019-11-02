@@ -1,12 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book App</title>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
-</head>
-<body>
-    
-</body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <label><input type="text" /></label>
+      </nav>
+    </header>
+    <main>
+      <h1 class="content">
+        <p class="bold-30">Hi Jorge,</p>
+        <p>Let’s find something new...</p>
+      </h1>
+      <div class="divider"></div>
+      <section class="feed">
+        <h1 class="feed__title bold-14 content">Trending</h1>
+        <div class="feed__content content">
+          <article class="card">
+            <div class="card__img card__img--big card--obama"></div>
+            <h1 class="medium-12">Normal people</h1>
+            <author class="card__author light-11">Sally Rooney</author>
+          </article>
+          <article class="card">
+            <div class="card__img card__img--big card--obama"></div>
+            <h1 class="medium-12">Normal people</h1>
+            <author class="card__author light-11">Sally Rooney</author>
+          </article>
+          <article class="card">
+            <div class="card__img card__img--big card--obama"></div>
+            <h1 class="medium-12">Normal people</h1>
+            <author class="card__author light-11">Sally Rooney</author>
+          </article>
+          <article class="card">
+            <div class="card__img card__img--big card--obama"></div>
+            <h1 class="medium-12">Normal people</h1>
+            <author class="card__author light-11">Sally Rooney</author>
+          </article>
+        </div>
+        <div class="divider"></div>
+      </section>
+      <section class="feed">
+        <h1 class="feed__title bold-14 content">New releases</h1>
+        <div class="divider"></div>
+      </section>
+      <section class="feed">
+        <h1 class="feed__title bold-14 content">Selected for you</h1>
+      </section>
+    </main>
+  </body>
 </html>
